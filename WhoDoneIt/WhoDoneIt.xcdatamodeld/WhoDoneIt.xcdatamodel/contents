@@ -1,4 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="true" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21E258" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="ClientData" representedClassName="ClientData" syncable="YES">
+        <attribute name="dead" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="didcrewwin" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="disconnectdata" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="gamefinished" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="gamestarted" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="killedPlayer" optional="YES" attributeType="String"/>
+        <attribute name="playernumber" optional="YES" attributeType="String"/>
+        <attribute name="tasksCompleted" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="traitor" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Player" representedClassName="Player" syncable="YES">
+        <attribute name="gamestarted" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="home" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="playercount" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="ClientData" positionX="-63" positionY="0" width="128" height="164"/>
+        <element name="Player" positionX="-63" positionY="-18" width="128" height="74"/>
+    </elements>
 </model>
