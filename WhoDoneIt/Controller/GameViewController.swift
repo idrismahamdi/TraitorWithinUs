@@ -20,6 +20,7 @@ class gameViewController: ViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
+        
         sleep(1)
   
         /* display to view by fetching the data if the player was assinged traitor or crewmemeber along with relevant instructions*/

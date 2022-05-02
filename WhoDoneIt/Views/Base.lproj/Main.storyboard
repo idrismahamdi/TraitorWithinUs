@@ -1079,20 +1079,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="How To Play" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h0J-qs-GMc">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How To Play" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h0J-qs-GMc">
                                 <rect key="frame" x="22" y="59" width="372" height="21"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" text="- Player tags which come with the game" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8WV-ge-ALc">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="- Player tags which come with the game" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8WV-ge-ALc">
                                 <rect key="frame" x="20" y="119" width="374" height="28"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" text="- To be on the same WiFi connection as the host" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pH9-hP-RAh">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="- To be on the same WiFi connection as the host" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pH9-hP-RAh">
                                 <rect key="frame" x="20" y="141" width="374" height="27"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
@@ -1102,7 +1102,7 @@
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" text="You will need: " textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LbU-6I-bwa">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="You will need: " textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LbU-6I-bwa">
                                 <rect key="frame" x="20" y="92" width="374" height="26"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
@@ -1112,7 +1112,7 @@
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" text="To start the game:" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3UH-HK-y73">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="To start the game:" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3UH-HK-y73">
                                 <rect key="frame" x="20" y="168" width="374" height="33"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
@@ -1122,7 +1122,7 @@
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" text="To join the game:" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AKG-Be-7b8">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="To join the game:" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AKG-Be-7b8">
                                 <rect key="frame" x="20" y="253" width="374" height="33"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
@@ -1132,7 +1132,7 @@
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" text="Once game has been started:" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rnC-Xo-Ftv">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Once game has been started:" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rnC-Xo-Ftv">
                                 <rect key="frame" x="20" y="337" width="374" height="33"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
@@ -1142,14 +1142,14 @@
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" text="Press 'Start Local Game', to allow players to join give out your joining code, 3 or more players are needed to start a game" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fsx-nL-ZwM">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Press 'Start Local Game', to allow players to join give out your joining code, 3 or more players are needed to start a game" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fsx-nL-ZwM">
                                 <rect key="frame" x="20" y="192" width="374" height="71"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uD4-Ta-LHW">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uD4-Ta-LHW">
                                 <rect key="frame" x="22" y="280" width="374" height="69"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
@@ -1160,7 +1160,7 @@
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ph0-9W-Obw">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ph0-9W-Obw">
                                 <rect key="frame" x="20" y="365" width="374" height="70"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
@@ -1171,7 +1171,7 @@
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oBM-cf-9Ed">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oBM-cf-9Ed">
                                 <rect key="frame" x="20" y="443" width="374" height="48"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="m4B-U9-JKN"/>
@@ -1182,7 +1182,7 @@
                                     <segue destination="iSd-s5-AZP" kind="presentation" id="qDf-YP-3t2"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yLX-d8-rrR">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yLX-d8-rrR">
                                 <rect key="frame" x="20" y="499" width="374" height="49"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="49" id="qlh-8e-xws"/>
@@ -1193,6 +1193,13 @@
                                     <segue destination="CZV-qY-7d0" kind="show" id="p7b-kO-aMY"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You make be asked to find these items: keyboard, switch, wallet, clock, remote, plastic bag, toilet tissue" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tQ2-R1-bto">
+                                <rect key="frame" x="22" y="556" width="372" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="systemRedColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Yqx-ld-CGv"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1227,7 +1234,7 @@
                             <constraint firstItem="AKG-Be-7b8" firstAttribute="trailing" secondItem="rnC-Xo-Ftv" secondAttribute="trailing" id="iFV-cn-Qo7"/>
                             <constraint firstItem="LbU-6I-bwa" firstAttribute="leading" secondItem="VDt-Xq-LmF" secondAttribute="leadingMargin" id="iMR-5I-Rzs"/>
                             <constraint firstItem="ph0-9W-Obw" firstAttribute="trailing" secondItem="oBM-cf-9Ed" secondAttribute="trailing" id="pvg-g1-qcq"/>
-                            <constraint firstItem="h0J-qs-GMc" firstAttribute="top" secondItem="Yqx-ld-CGv" secondAttribute="top" constant="59" id="r4y-0N-dOj"/>
+                            <constraint firstItem="h0J-qs-GMc" firstAttribute="top" secondItem="Yqx-ld-CGv" secondAttribute="top" constant="15" id="r4y-0N-dOj"/>
                             <constraint firstItem="LbU-6I-bwa" firstAttribute="top" secondItem="h0J-qs-GMc" secondAttribute="bottom" constant="12" id="u9n-U7-WbN"/>
                             <constraint firstItem="oBM-cf-9Ed" firstAttribute="top" secondItem="ph0-9W-Obw" secondAttribute="bottom" constant="8" id="uqm-v3-EMf"/>
                             <constraint firstItem="fsx-nL-ZwM" firstAttribute="top" secondItem="pH9-hP-RAh" secondAttribute="bottom" constant="24" id="w7r-FW-OKV"/>
@@ -1241,7 +1248,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y6v-zg-ERw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2401.449275362319" y="560.49107142857144"/>
+            <point key="canvasLocation" x="2400.8000000000002" y="559.97001499250382"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="0Ot-ov-vVr">

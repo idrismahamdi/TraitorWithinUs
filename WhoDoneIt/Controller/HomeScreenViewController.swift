@@ -28,6 +28,7 @@ class ViewController: UIViewController {
    
     override func viewDidLoad() {
         UIApplication.shared.isIdleTimerDisabled = true
+        
         super.viewDidLoad()}}
 
 

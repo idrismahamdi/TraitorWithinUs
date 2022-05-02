@@ -166,7 +166,7 @@
 		A05AFDCA27D9108B00F73FD6 = {
 			isa = PBXGroup;
 			children = (
-				A05AFDD527D9108C00F73FD6 /* TraitorWithinUs */,
+				A05AFDD527D9108C00F73FD6 /* WhoDoneIt */,
 				A0B79223280716D300C3CBF9 /* WhoDoneIt */,
 				A05AFDEF27D9109700F73FD6 /* WhoDoneItTests */,
 				A05AFDF927D9109700F73FD6 /* WhoDoneItUITests */,
@@ -186,7 +186,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A05AFDD527D9108C00F73FD6 /* TraitorWithinUs */ = {
+		A05AFDD527D9108C00F73FD6 /* WhoDoneIt */ = {
 			isa = PBXGroup;
 			children = (
 				A00DA0C4281EDA2B0016A645 /* MobileNetV2.mlmodel */,
@@ -204,7 +204,7 @@
 				A00DA0C0281CC16A0016A645 /* CoreMLServer */,
 				A00DA0C3281E004F0016A645 /* TestPlan.xctestplan */,
 			);
-			path = TraitorWithinUs;
+			path = WhoDoneIt;
 			sourceTree = "<group>";
 		};
 		A05AFDEF27D9109700F73FD6 /* WhoDoneItTests */ = {
@@ -694,7 +694,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = WhoDoneIt/WhoDoneItDebug.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.2;
+				CURRENT_PROJECT_VERSION = 2.0;
 				DEVELOPMENT_TEAM = T46S283FU3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WhoDoneIt/Info.plist;
@@ -705,13 +705,13 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = idrismahamdi.WhoDoneIt;
 				PRODUCT_NAME = TraitorWithinUs;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -727,7 +727,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.2;
+				CURRENT_PROJECT_VERSION = 2.0;
 				DEVELOPMENT_TEAM = T46S283FU3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WhoDoneIt/Info.plist;
@@ -738,13 +738,13 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = idrismahamdi.WhoDoneIt;
 				PRODUCT_NAME = TraitorWithinUs;
 				SWIFT_EMIT_LOC_STRINGS = YES;
