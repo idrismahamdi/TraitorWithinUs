@@ -1,6 +1,4 @@
 import UIKit
-import SwiftSocket
-import Foundation
 import CoreData
 
 
@@ -17,11 +15,14 @@ class gameViewController: ViewController {
     @IBOutlet weak var playernumbertxt: UILabel!
     @IBOutlet weak var loading: UIActivityIndicatorView!
     @IBOutlet weak var confirmbtn: UIButton!
+    
+    /* when view appears */
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
         sleep(1)
   
+        /* display to view by fetching the data if the player was assinged traitor or crewmemeber along with relevant instructions*/
         do{
             let items = try playerCoreData.fetch(ClientData.fetchRequest())
             let clientData = items[0]
@@ -37,6 +38,7 @@ class gameViewController: ViewController {
                 taskexampleimg.isHidden = false
 
             }
+            /*unhide all of the information to do with the data the player was assinged with*/
             
             playernumbertxt.text = ("You are player number: \(clientData.playernumber)")
             loading.stopAnimating()
@@ -50,9 +52,13 @@ class gameViewController: ViewController {
 
         }catch{}
     }
-    @IBAction func viewcontrollerpath(_ sender: Any) {
+    
+    /* take player to relevant view */
+   @IBAction func viewcontrollerpath(_ sender: Any) {
         let items = try? playerCoreData.fetch(ClientData.fetchRequest())
         let clientData = items![0]
+        /* if player was traitor when they press confirm take them to traitor view
+         else take them to the crewmember view*/
         if (clientData.traitor == true) {
         self.performSegue(withIdentifier: "traitor", sender: nil)
         } else{

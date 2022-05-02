@@ -1,9 +1,6 @@
 import UIKit
-import SwiftSocket
-import Foundation
 import CoreData
 import CoreNFC
-import Vision
 import AVKit
 
 class traitorViewController: ViewController, NFCNDEFReaderSessionDelegate, AVCaptureVideoDataOutputSampleBufferDelegate {
