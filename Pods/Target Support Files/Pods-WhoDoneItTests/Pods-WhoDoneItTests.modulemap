@@ -1,0 +1,6 @@
+framework module Pods_WhoDoneItTests {
+  umbrella header "Pods-WhoDoneItTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
