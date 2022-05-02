@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A00DA0C5281EDA2E0016A645 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A00DA0C4281EDA2B0016A645 /* MobileNetV2.mlmodel */; };
 		A01EDCDE280B77FC00D09F88 /* ObjectDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01EDCDD280B77FC00D09F88 /* ObjectDetectionViewController.swift */; };
 		A01EDCE0280B8A7600D09F88 /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A01EDCDF280B8A7500D09F88 /* SqueezeNet.mlmodel */; };
 		A01EDCE428105D1F00D09F88 /* TasksCompletedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01EDCE328105D1F00D09F88 /* TasksCompletedViewController.swift */; };
@@ -58,7 +57,6 @@
 		5B9FE0D92F6D59C2A2F254F8 /* Pods-WhoDoneIt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhoDoneIt.release.xcconfig"; path = "Target Support Files/Pods-WhoDoneIt/Pods-WhoDoneIt.release.xcconfig"; sourceTree = "<group>"; };
 		9E2FAB52AA888721A046F0C9 /* Pods-WhoDoneIt-WhoDoneItUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhoDoneIt-WhoDoneItUITests.debug.xcconfig"; path = "Target Support Files/Pods-WhoDoneIt-WhoDoneItUITests/Pods-WhoDoneIt-WhoDoneItUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A00DA0C3281E004F0016A645 /* TestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestPlan.xctestplan; sourceTree = "<group>"; };
-		A00DA0C4281EDA2B0016A645 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
 		A01EDCDD280B77FC00D09F88 /* ObjectDetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectDetectionViewController.swift; sourceTree = "<group>"; };
 		A01EDCDF280B8A7500D09F88 /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
 		A01EDCE328105D1F00D09F88 /* TasksCompletedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksCompletedViewController.swift; sourceTree = "<group>"; };
@@ -189,7 +187,6 @@
 		A05AFDD527D9108C00F73FD6 /* WhoDoneIt */ = {
 			isa = PBXGroup;
 			children = (
-				A00DA0C4281EDA2B0016A645 /* MobileNetV2.mlmodel */,
 				A04873472812C756006F3C23 /* WhoDoneItDebug.entitlements */,
 				A01EDCDF280B8A7500D09F88 /* SqueezeNet.mlmodel */,
 				A00DA0BE281CC1230016A645 /* Model */,
@@ -495,7 +492,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A00DA0C5281EDA2E0016A645 /* MobileNetV2.mlmodel in Sources */,
 				A07C8D4F280AFF76000123AB /* GameViewController.swift in Sources */,
 				A05AFDDB27D9108C00F73FD6 /* HomeScreenViewController.swift in Sources */,
 				A05AFDD727D9108C00F73FD6 /* AppDelegate.swift in Sources */,
