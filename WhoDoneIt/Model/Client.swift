@@ -10,45 +10,6 @@ class Client {
     var playerNumber = ""
     let playerCoreData = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     
-    func playerDead(player: String){
-                let items = try? playerCoreData.fetch(ClientData.fetchRequest())
-                let clientData = items![0]
-                clientData.killedPlayer = player
-                try? playerCoreData.save()
-
-    }
-    
-    
-    func defaultInfo(){
-    
-     var x = 0
-        var clientData: ClientData?
-     do{
-        let items = try playerCoreData.fetch(ClientData.fetchRequest())
-         for _ in items{
-             x+=1
-         }
-         if x == 0{
-             clientData = ClientData(context: playerCoreData)
-
-        }else{
-             clientData = items[0]
-             
-         }
-         clientData!.gamestarted = false
-         clientData!.traitor = false
-         clientData!.playernumber = ""
-         clientData!.gamefinished = false
-         clientData!.tasksCompleted = false
-         clientData!.dead = false
-         clientData!.killedPlayer = "0"
-         clientData!.disconnectdata = false
-         try? playerCoreData.save()
-     }catch{}
-    }
-    
-    
-    
     
     /* If player is a traitor the server will check if they have killed any players, if so check what player number they killed */
     func killPlayer(client: TCPClient, hold: [Byte], clientInfo: ClientData){
@@ -237,4 +198,42 @@ class Client {
     
     
 }
+    /* when a player is dead then save this information */
+    func playerDead(player: String){
+                let items = try? playerCoreData.fetch(ClientData.fetchRequest())
+                let clientData = items![0]
+                clientData.killedPlayer = player
+                try? playerCoreData.save()
+
+    }
+    
+    /* setting up client information */
+    func defaultInfo(){
+    /* if first install of app create new coreml data, else use [0] in array of existing data */
+     var x = 0
+        var clientData: ClientData?
+     do{
+        let items = try playerCoreData.fetch(ClientData.fetchRequest())
+         for _ in items{
+             x+=1
+         }
+         if x == 0{
+             clientData = ClientData(context: playerCoreData)
+
+        }else{
+             clientData = items[0]
+             
+         }
+         /* set coreML default values for the client*/
+         clientData!.gamestarted = false
+         clientData!.traitor = false
+         clientData!.playernumber = ""
+         clientData!.gamefinished = false
+         clientData!.tasksCompleted = false
+         clientData!.dead = false
+         clientData!.killedPlayer = "0"
+         clientData!.disconnectdata = false
+         try? playerCoreData.save()
+     }catch{}
+    }
     }

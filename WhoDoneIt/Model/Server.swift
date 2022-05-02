@@ -3,7 +3,7 @@ import SwiftSocket
 import Foundation
 import CoreData
 
-
+/* client is linked to a player number */
 struct player{
     var client: TCPClient
     var playerNumber: Int
@@ -17,45 +17,7 @@ class Server {
     let playerCoreData = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     
     
-    
-    func cancelServer(){
-        let items = try? playerCoreData.fetch(ClientData.fetchRequest())
-        let clientData = items![0]
-        clientData.gamestarted = true
-        clientData.gamefinished = true
-        try? playerCoreData.save()
-        sleep(5)
-        clientData.gamestarted = false
-        try? playerCoreData.save()
-      
-    }
-    
-    
-    
-    func defaultInfo() -> Player?{
-    
-     var x = 0
-        var serverInfo: Player?
-     do{
-        let items = try playerCoreData.fetch(Player.fetchRequest())
-         for _ in items{
-             x+=1
-         }
-         if x == 0{
-             serverInfo = Player(context: playerCoreData)
 
-        }else{
-            serverInfo = items[0]
-             
-         }
-         serverInfo!.playercount = 0
-         serverInfo!.gamestarted = false
-         serverInfo!.home = false
-         try? playerCoreData.save()
-         return serverInfo
-     }catch{}
-        return nil
-    }
 
 /* Ping pong game - keeps connection alive between server and client */
     func ping(client: TCPClient) -> Bool? {
@@ -311,4 +273,55 @@ func startServer(playerCount: Player) {
            
          /* If server did not start send debug error */
          case .failure(let error):
-           print(error)}}}
+           print(error)}
+    
+    
+}
+    
+    
+    
+    /* closes server */
+    func cancelServer(){
+        let items = try? playerCoreData.fetch(ClientData.fetchRequest())
+        let clientData = items![0]
+        /* game started and finished happen to close the server */
+        clientData.gamestarted = true
+        clientData.gamefinished = true
+        try? playerCoreData.save()
+        sleep(5)
+        /* set back to default */
+        clientData.gamestarted = false
+        try? playerCoreData.save()
+      
+    }
+    
+    
+    /* server data setup */
+    func defaultInfo() -> Player?{
+    
+        /* if first time using the app then set up core data else use the first item in array */
+     var x = 0
+        var serverInfo: Player?
+     do{
+        let items = try playerCoreData.fetch(Player.fetchRequest())
+         for _ in items{
+             x+=1
+         }
+         if x == 0{
+             serverInfo = Player(context: playerCoreData)
+
+        }else{
+            serverInfo = items[0]
+             
+         }
+         
+         /* set default core data for the server */
+         serverInfo!.playercount = 0
+         serverInfo!.gamestarted = false
+         serverInfo!.home = false
+         try? playerCoreData.save()
+         return serverInfo
+     }catch{}
+        return nil
+    }
+}
