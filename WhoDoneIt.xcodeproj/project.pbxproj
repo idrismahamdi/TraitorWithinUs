@@ -166,7 +166,7 @@
 		A05AFDCA27D9108B00F73FD6 = {
 			isa = PBXGroup;
 			children = (
-				A05AFDD527D9108C00F73FD6 /* WhoDoneIt */,
+				A05AFDD527D9108C00F73FD6 /* TraitorWithinUs */,
 				A0B79223280716D300C3CBF9 /* WhoDoneIt */,
 				A05AFDEF27D9109700F73FD6 /* WhoDoneItTests */,
 				A05AFDF927D9109700F73FD6 /* WhoDoneItUITests */,
@@ -186,7 +186,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A05AFDD527D9108C00F73FD6 /* WhoDoneIt */ = {
+		A05AFDD527D9108C00F73FD6 /* TraitorWithinUs */ = {
 			isa = PBXGroup;
 			children = (
 				A00DA0C4281EDA2B0016A645 /* MobileNetV2.mlmodel */,
@@ -204,7 +204,7 @@
 				A00DA0C0281CC16A0016A645 /* CoreMLServer */,
 				A00DA0C3281E004F0016A645 /* TestPlan.xctestplan */,
 			);
-			path = WhoDoneIt;
+			path = TraitorWithinUs;
 			sourceTree = "<group>";
 		};
 		A05AFDEF27D9109700F73FD6 /* WhoDoneItTests */ = {
